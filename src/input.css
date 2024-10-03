@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Inter-Bold', sans-serif;
+        src: url('../assets/fonts/static/Inter-Bold.ttf') format('TrueType');
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Inter-SemiBold', sans-serif;
+        src: url('../assets/fonts/static/Inter-SemiBold.ttf') format('TrueType');
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'Inter-Regular', sans-serif;
+        src: url('../assets/fonts/static/Inter-Regular.ttf') format('TrueType');
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+@tailwind utilities;
